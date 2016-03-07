@@ -1,0 +1,5 @@
+[run]
+include =
+    til/*
+omit =
+    til/tests/*
