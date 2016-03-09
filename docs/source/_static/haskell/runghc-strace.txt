@@ -1,0 +1,661 @@
+execve("/usr/bin/runghc", ["runghc", "./hello"], [/* 47 vars */]) = 0
+brk(NULL)                               = 0x973000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17f7437000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=105117, ...}) = 0
+mmap(NULL, 105117, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f17f741d000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libncurses.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 k\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=142856, ...}) = 0
+mmap(NULL, 2238280, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f17f6ff5000
+mprotect(0x7f17f7017000, 2093056, PROT_NONE) = 0
+mmap(0x7f17f7216000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x21000) = 0x7f17f7216000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libtinfo.so.5", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260\320\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=171752, ...}) = 0
+mmap(NULL, 2268768, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f17f6dcb000
+mprotect(0x7f17f6df1000, 2093056, PROT_NONE) = 0
+mmap(0x7f17f6ff0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f17f6ff0000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14640, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17f741c000
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f17f6bc7000
+mprotect(0x7f17f6bc9000, 2097152, PROT_NONE) = 0
+mmap(0x7f17f6dc9000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f17f6dc9000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\7\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1709784, ...}) = 0
+mmap(NULL, 3816000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f17f6823000
+mprotect(0x7f17f69bd000, 2097152, PROT_NONE) = 0
+mmap(0x7f17f6bbd000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000) = 0x7f17f6bbd000
+mmap(0x7f17f6bc3000, 14912, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f17f6bc3000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17f741b000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17f741a000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17f7419000
+arch_prctl(ARCH_SET_FS, 0x7f17f741a700) = 0
+mprotect(0x7f17f6bbd000, 16384, PROT_READ) = 0
+mprotect(0x7f17f6dc9000, 4096, PROT_READ) = 0
+mprotect(0x7f17f6ff0000, 16384, PROT_READ) = 0
+mprotect(0x7f17f7216000, 4096, PROT_READ) = 0
+mprotect(0x6f3000, 4096, PROT_READ)     = 0
+mprotect(0x7f17f7439000, 4096, PROT_READ) = 0
+munmap(0x7f17f741d000, 105117)          = 0
+open("/dev/tty", O_RDWR|O_NONBLOCK)     = 3
+close(3)                                = 0
+brk(NULL)                               = 0x973000
+brk(0x974000)                           = 0x974000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1099904, ...}) = 0
+mmap(NULL, 1099904, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f17f730c000
+close(3)                                = 0
+brk(0x975000)                           = 0x975000
+brk(0x976000)                           = 0x976000
+getuid()                                = 1000
+getgid()                                = 1000
+geteuid()                               = 1000
+getegid()                               = 1000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+brk(0x977000)                           = 0x977000
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f17f7436000
+read(3, "MemTotal:        8179832 kB\nMemF"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7f17f7436000, 4096)            = 0
+brk(0x978000)                           = 0x978000
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, 8) = 0
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f17f6856500}, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, 8) = 0
+uname({sysname="Linux", nodename="debian", ...}) = 0
+brk(0x979000)                           = 0x979000
+brk(0x97a000)                           = 0x97a000
+brk(0x97b000)                           = 0x97b000
+brk(0x97c000)                           = 0x97c000
+stat("/home/kohei/devel/haskell-learning", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+stat(".", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+getpid()                                = 5421
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f17f7430000
+close(3)                                = 0
+brk(0x97d000)                           = 0x97d000
+getppid()                               = 5419
+brk(0x97e000)                           = 0x97e000
+getpgrp()                               = 5419
+rt_sigaction(SIGCHLD, {0x4479c0, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, 8) = 0
+getrlimit(RLIMIT_NPROC, {rlim_cur=31872, rlim_max=31872}) = 0
+brk(0x97f000)                           = 0x97f000
+brk(0x980000)                           = 0x980000
+rt_sigprocmask(SIG_BLOCK, NULL, [], 8)  = 0
+open("/usr/bin/runghc", O_RDONLY)       = 3
+ioctl(3, TCGETS, 0x7ffefe1839b0)        = -1 ENOTTY (Inappropriate ioctl for device)
+lseek(3, 0, SEEK_CUR)                   = 0
+read(3, "#!/bin/bash\nexedir=\"/usr/lib/ghc"..., 80) = 80
+lseek(3, 0, SEEK_SET)                   = 0
+getrlimit(RLIMIT_NOFILE, {rlim_cur=64*1024, rlim_max=64*1024}) = 0
+fcntl(255, F_GETFD)                     = -1 EBADF (Bad file descriptor)
+dup2(3, 255)                            = 255
+close(3)                                = 0
+fcntl(255, F_SETFD, FD_CLOEXEC)         = 0
+fcntl(255, F_GETFL)                     = 0x8000 (flags O_RDONLY|O_LARGEFILE)
+fstat(255, {st_mode=S_IFREG|0755, st_size=211, ...}) = 0
+lseek(255, 0, SEEK_CUR)                 = 0
+brk(0x981000)                           = 0x981000
+read(255, "#!/bin/bash\nexedir=\"/usr/lib/ghc"..., 211) = 211
+brk(0x982000)                           = 0x982000
+brk(0x983000)                           = 0x983000
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f17f6856500}, {SIG_IGN, [], SA_RESTORER, 0x7f17f6856500}, 8) = 0
+rt_sigaction(SIGCHLD, {SIG_DFL, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, {0x4479c0, [], SA_RESTORER|SA_RESTART, 0x7f17f6856500}, 8) = 0
+execve("/usr/lib/ghc/bin/runghc", ["/usr/lib/ghc/bin/runghc", "-f", "/usr/bin/ghc", "./hello"], [/* 44 vars */]) = 0
+brk(NULL)                               = 0xfe3000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bda4000
+readlink("/proc/self/exe", "/usr/lib/ghc/bin/runghc", 4096) = 23
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/usr/lib/ghc/bin/../rts/tls/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../rts/tls/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/tls/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../rts/tls", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/x86_64/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../rts/x86_64", 0x7fffed05a220) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/librt.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+stat("/usr/lib/ghc/bin/../rts", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=105117, ...}) = 0
+mmap(NULL, 105117, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5f2bd8a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/librt.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=31744, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd89000
+mmap(NULL, 2128832, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2b97d000
+mprotect(0x7f5f2b984000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2bb83000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7f5f2bb83000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=10688, ...}) = 0
+mmap(NULL, 2105608, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2b77a000
+mprotect(0x7f5f2b77c000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2b97b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7f5f2b97b000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14640, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2b576000
+mprotect(0x7f5f2b578000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f2b778000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f5f2b778000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=135968, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd88000
+mmap(NULL, 2213008, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2b359000
+mprotect(0x7f5f2b371000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2b570000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f5f2b570000
+mmap(0x7f5f2b572000, 13456, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f2b572000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libgmp.so.10", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libgmp.so.10", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\300\305\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=537320, ...}) = 0
+mmap(NULL, 2632576, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2b0d6000
+mprotect(0x7f5f2b158000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2b357000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x81000) = 0x7f5f2b357000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libm.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320T\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1038784, ...}) = 0
+mmap(NULL, 3133704, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2add8000
+mprotect(0x7f5f2aed5000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2b0d4000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xfc000) = 0x7f5f2b0d4000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libffi.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libffi.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\32\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=35312, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd87000
+mmap(NULL, 2131560, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2abcf000
+mprotect(0x7f5f2abd6000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f2add6000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f5f2add6000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSprocess-1.2.3.0-52AgREEfSrnJLlkGV9YZZJ-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360\362\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=141064, ...}) = 0
+mmap(NULL, 2236344, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2a9ad000
+mprotect(0x7f5f2a9ce000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2abcd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x20000) = 0x7f5f2abcd000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSdirectory-1.2.2.0-0hFG6ZxK1nk4zsyOqbNHfm-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSdirectory-1.2.2.0-0hFG6ZxK1nk4zsyOqbNHfm-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00004\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=164824, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd86000
+mmap(NULL, 2260096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2a785000
+mprotect(0x7f5f2a7aa000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f2a9aa000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x25000) = 0x7f5f2a9aa000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSunix-2.7.1.0-KZL8h98IqDM57kQSPo1mKx-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSunix-2.7.1.0-KZL8h98IqDM57kQSPo1mKx-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSunix-2.7.1.0-KZL8h98IqDM57kQSPo1mKx-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0@z\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=823792, ...}) = 0
+mmap(NULL, 2919056, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2a4bc000
+mprotect(0x7f5f2a57b000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2a77a000, 45056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xbe000) = 0x7f5f2a77a000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSbytestring-0.10.6.0-6VWy06pWzJq9evDvK2d4w6-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSbytestring-0.10.6.0-6VWy06pWzJq9evDvK2d4w6-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSbytestring-0.10.6.0-6VWy06pWzJq9evDvK2d4w6-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSbytestring-0.10.6.0-6VWy06pWzJq9evDvK2d4w6-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSbytestring-0.10.6.0-6VWy06pWzJq9evDvK2d4w6-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSbytestring-0.10.6.0-6VWy06pWzJq9evDvK2d4w6-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0N\5\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=930848, ...}) = 0
+mmap(NULL, 3026120, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f2a1d9000
+mprotect(0x7f5f2a2b4000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f2a4b3000, 36864, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xda000) = 0x7f5f2a4b3000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHStime-1.5.0.1-FTheb6LSxyX1UABIbBXRfn-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHStime-1.5.0.1-FTheb6LSxyX1UABIbBXRfn-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHStime-1.5.0.1-FTheb6LSxyX1UABIbBXRfn-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHStime-1.5.0.1-FTheb6LSxyX1UABIbBXRfn-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\265\6\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1061392, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd85000
+mmap(NULL, 3156664, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f29ed6000
+mprotect(0x7f5f29fcb000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f2a1cb000, 57344, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xf5000) = 0x7f5f2a1cb000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libHSdeepseq-1.4.1.1-6vMKxt5sPFR0XsbRWvvq59-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\270\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=69784, ...}) = 0
+mmap(NULL, 2165136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f29cc5000
+mprotect(0x7f5f29cd5000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f29ed5000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x10000) = 0x7f5f29ed5000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libHSarray-0.5.1.0-67iodizgJQIIxYVTp4emlA-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\341\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=587328, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd84000
+mmap(NULL, 2682680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f29a36000
+mprotect(0x7f5f29ac1000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f29cc1000, 16384, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8b000) = 0x7f5f29cc1000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSfilepath-1.4.0.0-Ey7a1in9roBAE8bUFJ5R9m-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSfilepath-1.4.0.0-Ey7a1in9roBAE8bUFJ5R9m-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSfilepath-1.4.0.0-Ey7a1in9roBAE8bUFJ5R9m-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSfilepath-1.4.0.0-Ey7a1in9roBAE8bUFJ5R9m-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSfilepath-1.4.0.0-Ey7a1in9roBAE8bUFJ5R9m-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\310\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=124240, ...}) = 0
+mmap(NULL, 2219592, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f29818000
+mprotect(0x7f5f29834000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f29a34000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7f5f29a34000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libHSbase-4.8.2.0-HQfYBxpPvuw8OunzQu6JGM-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200\3216\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=8135184, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd83000
+mmap(NULL, 10230376, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f28e56000
+mprotect(0x7f5f295a2000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f297a2000, 483328, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x74c000) = 0x7f5f297a2000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libHSinteger-gmp-1.0.0.0-2aU3IZNMF9a7mQ0OzsZ0dS-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\00004\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=214800, ...}) = 0
+mmap(NULL, 2310072, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f28c22000
+mprotect(0x7f5f28c55000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f28e54000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x32000) = 0x7f5f28e54000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libHSghc-prim-0.4.0.0-8TmvWUcS1U1IKHT0levwg3-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260n\3\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=524240, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd82000
+mmap(NULL, 2619512, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f289a2000
+mprotect(0x7f5f28a20000, 2093056, PROT_NONE) = 0
+mmap(0x7f5f28c1f000, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7d000) = 0x7f5f28c1f000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libHSrts-ghc7.10.3.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360~\1\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=381688, ...}) = 0
+mmap(NULL, 2524496, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f28739000
+mprotect(0x7f5f28791000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f28991000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x58000) = 0x7f5f28991000
+mmap(0x7f5f28996000, 46416, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f28996000
+close(3)                                = 0
+open("/usr/lib/ghc/bin/../proce_52AgREEfSrnJLlkGV9YZZJ/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../direc_0hFG6ZxK1nk4zsyOqbNHfm/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../unix_KZL8h98IqDM57kQSPo1mKx/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../time_FTheb6LSxyX1UABIbBXRfn/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../filep_Ey7a1in9roBAE8bUFJ5R9m/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../bytes_6VWy06pWzJq9evDvK2d4w6/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../deeps_6vMKxt5sPFR0XsbRWvvq59/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../array_67iodizgJQIIxYVTp4emlA/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../base_HQfYBxpPvuw8OunzQu6JGM/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../integ_2aU3IZNMF9a7mQ0OzsZ0dS/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../ghcpr_8TmvWUcS1U1IKHT0levwg3/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+open("/usr/lib/ghc/bin/../rts/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0000\7\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1709784, ...}) = 0
+mmap(NULL, 3816000, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5f28395000
+mprotect(0x7f5f2852f000, 2097152, PROT_NONE) = 0
+mmap(0x7f5f2872f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000) = 0x7f5f2872f000
+mmap(0x7f5f28735000, 14912, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5f28735000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd81000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd80000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd7f000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd7e000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bd7d000
+arch_prctl(ARCH_SET_FS, 0x7f5f2bd7e700) = 0
+mprotect(0x7f5f2872f000, 16384, PROT_READ) = 0
+mprotect(0x7f5f2b570000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2bb83000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2b778000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2b0d4000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2add6000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2b357000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2b97b000, 4096, PROT_READ) = 0
+mprotect(0x7f5f2bda6000, 4096, PROT_READ) = 0
+munmap(0x7f5f2bd8a000, 105117)          = 0
+set_tid_address(0x7f5f2bd7e9d0)         = 5421
+set_robust_list(0x7f5f2bd7e9e0, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f5f2b35eb90, [], SA_RESTORER|SA_SIGINFO, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f5f2b35ec20, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0xfe3000
+brk(0x1004000)                          = 0x1004000
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1099904, ...}) = 0
+mmap(NULL, 1099904, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f5f2bc70000
+close(3)                                = 0
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 21744686}) = 0
+open("/proc/meminfo", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=0, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f2bda3000
+read(3, "MemTotal:        8179832 kB\nMemF"..., 1024) = 1024
+close(3)                                = 0
+munmap(0x7f5f2bda3000, 4096)            = 0
+mmap(NULL, 2097152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f5f28195000
+munmap(0x7f5f28195000, 438272)          = 0
+munmap(0x7f5f28300000, 610304)          = 0
+timer_create(CLOCK_MONOTONIC, {sigev_signo=SIGVTALRM, sigev_notify=SIGEV_SIGNAL}, [0]) = 0
+rt_sigaction(SIGVTALRM, {0x7f5f28763960, [], SA_RESTORER|SA_RESTART, 0x7f5f2b369d30}, NULL, 8) = 0
+timer_settime(0, 0, {it_interval={0, 10000000}, it_value={0, 10000000}}, NULL) = 0
+rt_sigaction(SIGINT, {0x7f5f287705b0, [], SA_RESTORER, 0x7f5f2b369d30}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGINT, NULL, {0x7f5f287705b0, [], SA_RESTORER, 0x7f5f2b369d30}, 8) = 0
+rt_sigaction(SIGINT, {0x7f5f287705b0, [], SA_RESTORER, 0x7f5f283c8500}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {0x7f5f28770540, [], SA_RESTORER, 0x7f5f2b369d30}, {SIG_DFL, [], 0}, 8) = 0
+rt_sigaction(SIGTSTP, {0x7f5f287705d0, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 22298779}) = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+rt_sigaction(SIGINT, {0x7f5f28770650, [], SA_RESTORER|SA_RESETHAND|SA_SIGINFO, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+stat("./hello", {st_mode=S_IFREG|0755, st_size=1175280, ...}) = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+rt_sigaction(SIGINT, {SIG_IGN, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [QUIT], [], 8) = 0
+rt_sigaction(SIGQUIT, {SIG_IGN, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+pipe([3, 4])                            = 0
+rt_sigprocmask(SIG_BLOCK, [], [], 8)    = 0
+timer_settime(0, 0, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+vfork()                                 = 5422
+close(4)                                = 0
+fcntl(3, F_SETFD, FD_CLOEXEC)           = 0
+read(3, "", 4)                          = 0
+close(3)                                = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+timer_settime(0, 0, {it_interval={0, 10000000}, it_value={0, 10000000}}, NULL) = 0
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, 
+hello:1:1: lexical error at character '\DEL'
+0x7fffed05696c, 0, NULL)    = ? ERESTARTSYS (To be restarted if SA_RESTART is set)
+--- SIGVTALRM {si_signo=SIGVTALRM, si_code=SI_TIMER, si_timerid=0, si_overrun=0, si_value={int=0, ptr=0}} ---
+rt_sigreturn({mask=[]})                 = 61
+wait4(5422, [{WIFEXITED(s) && WEXITSTATUS(s) == 1}], 0, NULL) = 5422
+--- SIGCHLD {si_signo=SIGCHLD, si_code=CLD_EXITED, si_pid=5422, si_uid=1000, si_status=1, si_utime=6, si_stime=2} ---
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+rt_sigaction(SIGINT, {0x7f5f28770650, [], SA_RESTORER|SA_SIGINFO, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigprocmask(SIG_BLOCK, [QUIT], [], 8) = 0
+rt_sigaction(SIGQUIT, {SIG_DFL, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+ioctl(1, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 24302514}) = 0
+rt_sigprocmask(SIG_BLOCK, [INT], [], 8) = 0
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 24377647}) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+timer_settime(0, 0, {it_interval={0, 0}, it_value={0, 0}}, NULL) = 0
+rt_sigaction(SIGVTALRM, {SIG_IGN, [], SA_RESTORER|SA_INTERRUPT|SA_NODEFER|SA_RESETHAND, 0x7f5f283c8500}, {0x7f5f28763960, [], SA_RESTORER|SA_RESTART, 0x7f5f2b369d30}, 8) = 0
+timer_delete(0)                         = 0
+rt_sigprocmask(SIG_BLOCK, [TTOU], [], 8) = 0
+rt_sigprocmask(SIG_SETMASK, [], NULL, 8) = 0
+rt_sigaction(SIGINT, {SIG_DFL, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigaction(SIGPIPE, {SIG_DFL, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+rt_sigaction(SIGTSTP, {SIG_DFL, [], SA_RESTORER, 0x7f5f2b369d30}, NULL, 8) = 0
+clock_gettime(CLOCK_PROCESS_CPUTIME_ID, {0, 24841282}) = 0
+exit_group(1)                           = ?
++++ exited with 1 +++

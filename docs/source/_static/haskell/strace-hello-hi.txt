@@ -1,0 +1,14 @@
+main
+Main
+base
+ghc-prim
+integer-gmp
+GHC.Base
+	GHC.Float
+Control.Applicative
+Data.Either
+Data.Monoid
+Data.Type.Equality
+GHC.Generics
+Prelude
+	System.IO
