@@ -9,6 +9,7 @@ Contents:
    README
    web
    network
+   haskell
 
 Indices and tables
 ==================
