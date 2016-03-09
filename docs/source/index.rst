@@ -8,8 +8,9 @@ Contents:
 
    README
    web
-   network
+   sphinx
    haskell
+   network
 
 Indices and tables
 ==================
