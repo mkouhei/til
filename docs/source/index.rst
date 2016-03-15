@@ -10,6 +10,7 @@ Contents:
    web
    sphinx
    haskell
+   rails
    network
 
 Indices and tables
