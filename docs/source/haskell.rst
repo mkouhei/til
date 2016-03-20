@@ -6,6 +6,16 @@
 * haskell-mode
 * REPL is ``ghci``
 
+Stack
+=====
+
+* `haskell-stack <https://www.spock.li/tutorial/>`_
+
+.. code-block:: sh
+
+   $ sudo apt-get install haskell-stack
+   $ stack setup
+
 Compile
 =======
 
