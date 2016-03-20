@@ -76,3 +76,32 @@ This is cool!
 
    $ runghc hello.lhs
    "hello"
+
+wai
+===
+
+.. code-block:: haskell
+
+   {-# LANGUAGE OverloadedStrings #-}
+
+without this sentence
+
+.. code-block:: haskell
+
+   $ stack build
+   wai-sample-0.1.0.0: build
+   Preprocessing executable 'wai-sample' for wai-sample-0.1.0.0...
+   [1 of 1] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-linux/Cabal-1.22.5.0/build/wai-sample/wai-sample-tmp/Main.o )
+   
+   /path/to/wai-sample/src/Main.hs:19:59:
+       Couldn't match expected type ‘bytestring-0.10.6.0:Data.ByteString.Lazy.Internal.ByteString’
+                   with actual type ‘[Char]’
+       In the third argument of ‘responseLBS’, namely ‘"Hello wai"’
+       In the second argument of ‘($)’, namely
+           ‘responseLBS status200 [] "Hello wai"’
+       In the expression: respond $ responseLBS status200 [] "Hello wai"
+   
+   --  While building package wai-sample-0.1.0.0 using:
+         /home/mkouhei/.stack/setup-exe-cache/x86_64-linux/setup-Simple-Cabal-1.22.5.0-ghc-7.10.3 --builddir=.stack-work/dist/x86_64-linux/Cabal-1.22.5.0 build exe:wai-sample --ghc-options " -ddump-hi -ddump-to-file"
+       Process exited with code: ExitFailure 1
+
